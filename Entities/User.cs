@@ -14,7 +14,6 @@ namespace ApiTalking.Entities
         public string? Province { get; set; }
 
         // Enum para el estado del usuario
-
         public UserStatus UserStatus { get; set; } = UserStatus.Active;
     }
 }
